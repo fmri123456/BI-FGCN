@@ -1,0 +1,15 @@
+This document provides the supplementary information of the data sets used in th experiments of BI-FGCN verfication.
+
+=================================================
+
+# Link to the ADNI site: https://adni.loni.usc.edu/
+
+# Overview of ADNI samples used in this work
+1,956 samples in total, including 330 AD patients (161F/169M), 314 LMCI patients (140F/174M), 611 EMCI patients (287F/324M), and 701 NC samples (352F/349M). It is noteworhty that the ADNI datasets encompass more number of samples in each category. However, not all samples have high-quality imaging genetic data. The above sample sets were obtained after careful filtering and are maximized in sizes. 
+
+# Data overview
+- Functional magnetic resonance imaging (FMRI):
+We applied resting state fMRI (rs-fMRI) data as the imaging data. The rfMRI data were collected by a Philips 3.0 T magnetic resonance scanner. Scanning parameters were as follows: turning angle was 80.0°, matrix X and matrix Y were 64.0 pixels, pixel spacing X and pixel spacing Y were 3.3 mm, pulse sequence was GR, layer thickness was 3.3 mm, repetition time was 3000.0 MS, echo time was 30.0 MS and time point was 140.
+
+- Single nucleotide polymorphism (SNP)
+The gene data were obtained from the deoxyribonucleic acid (DNA) analysis in blood samples and stored as SNPs on Illumina Omni 2.5 M.
